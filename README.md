@@ -1,3 +1,4 @@
+
 项目可分为两个部分：人脸检测和情绪识别
 
 # 人脸检测
@@ -212,4 +213,5 @@ def infer_single_image(model, img, class_names, device):
 运行detect_mood.py后，项目自动识别demo/dec_images文件夹中图片，将检测结果保存到rec_result文件夹中
 
 ## 结果展示
+
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/9507004c002541338b820be08b7479f9.png)
