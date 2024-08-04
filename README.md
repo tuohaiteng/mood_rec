@@ -15,18 +15,18 @@ YOLOv5Face是以YOLOv5作为Baseline来进行改进和再设计以适应人脸�
 
 ### YOLOv5结构图
 
-![yolo5](E:\faceid\mood_rec\data\images\yolo5.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/73c2da4db01a49bc9b2a8b046f4c795e.png)
 
 ### YOLOv5-face结构图
 
-![Yolo5face](E:\faceid\mood_rec\data\images\Yolo5face.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b2b169ff625c4301b1bc7440c2c94edf.png)
 
 ## 数据集
 
 Wider Face数据集最早是在2015年公开的。该数据集的图片来源是WIDER数据集，从中挑选出了32,203图片并进行了人脸标注，总共标注了393,703个人脸数据。并且对于每张人脸都附带有更加详细的信息，包扩blur（模糊程度）, expression（表情）, illumination（光照）, occlusion（遮挡）, pose（姿态）等
 在数据集中，根据事件场景的类型分为了61个类。接着根据每个类别按照40% / 10% / 50%的比例划分到训练集，验证集以及测试集中。
 
-![image-20240804210224286](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20240804210224286.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d20a4a4b20d04dfb86c1f6784d620b9f.png)
 
 # 情绪识别
 
@@ -102,9 +102,7 @@ Non-trainable params: 0
 
 **FER**数据集，其中图像已被重新标记为 7 种情绪类型之一：中性、快乐、惊讶、悲伤、愤怒、厌恶、恐惧，尺寸限制为 48×48
 
-![image-20240804211134517](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20240804211134517.png)
-
-![image-20240804211403215](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20240804211403215.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/d8bd8903b4be475e8f63211a84c5b2d9.png)
 
 # 主要过程
 
@@ -217,7 +215,4 @@ def infer_single_image(model, img, class_names, device):
 
 ## 结果展示
 
-![zidane](E:\faceid\mood_rec\demo\rec_result\zidane.jpg)
-
-
-
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/9507004c002541338b820be08b7479f9.png)
