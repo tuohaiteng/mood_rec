@@ -20,6 +20,7 @@ YOLOv5Face是以YOLOv5作为Baseline来进行改进和再设计以适应人脸�
 ### YOLOv5-face结构图
 
 ![Yolo5face](E:\faceid\mood_rec\data\images\Yolo5face.png)
+
 ## 数据集
 
 Wider Face数据集最早是在2015年公开的。该数据集的图片来源是WIDER数据集，从中挑选出了32,203图片并进行了人脸标注，总共标注了393,703个人脸数据。并且对于每张人脸都附带有更加详细的信息，包扩blur（模糊程度）, expression（表情）, illumination（光照）, occlusion（遮挡）, pose（姿态）等
@@ -71,6 +72,7 @@ Wider Face数据集最早是在2015年公开的。该数据集的图片来源是
     - **输出**：表示情感分类结果。
 
 这种架构逐步提取图像特征，最后通过全连接层和输出层进行情感分类
+
 ## 模型结构图
 
 ```
