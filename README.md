@@ -214,4 +214,4 @@ def infer_single_image(model, img, class_names, device):
 
 ## 结果展示
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/9507004c002541338b820be08b7479f9.png)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/7ff0ef818e8540d3be51822a0f8d35ab.jpeg#pic_center)
