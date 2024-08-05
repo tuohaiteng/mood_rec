@@ -1,4 +1,3 @@
-
 项目可分为两个部分：人脸检测和情绪识别
 
 # 人脸检测
@@ -21,6 +20,7 @@ YOLOv5Face是以YOLOv5作为Baseline来进行改进和再设计以适应人脸�
 ### YOLOv5-face结构图
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/b2b169ff625c4301b1bc7440c2c94edf.png)
+
 ## 数据集
 
 Wider Face数据集最早是在2015年公开的。该数据集的图片来源是WIDER数据集，从中挑选出了32,203图片并进行了人脸标注，总共标注了393,703个人脸数据。并且对于每张人脸都附带有更加详细的信息，包扩blur（模糊程度）, expression（表情）, illumination（光照）, occlusion（遮挡）, pose（姿态）等
@@ -72,6 +72,7 @@ Wider Face数据集最早是在2015年公开的。该数据集的图片来源是
     - **输出**：表示情感分类结果。
 
 这种架构逐步提取图像特征，最后通过全连接层和输出层进行情感分类
+
 ## 模型结构图
 
 ```
@@ -212,6 +213,28 @@ def infer_single_image(model, img, class_names, device):
 
 运行detect_mood.py后，项目自动识别demo/dec_images文件夹中图片，将检测结果保存到rec_result文件夹中
 
+## 训练结果
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/c1f06692188a4db0a4ad72bf4e74426f.png)
+
 ## 结果展示
 
-![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/7ff0ef818e8540d3be51822a0f8d35ab.jpeg#pic_center)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/9507004c002541338b820be08b7479f9.png)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/cf73301e98724f248c3988cde48b24c0.jpeg)
+
+![31_Waiter_Waitress_Waiter_Waitress_31_281](E:\faceid\mood_rec\demo\rec_result\31_Waiter_Waitress_Waiter_Waitress_31_281.jpg)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3066b788eee54f53af8d810504bf3e70.jpeg)
+
+![15_Stock_Market_Stock_Market_15_779](E:\faceid\mood_rec\demo\rec_result\15_Stock_Market_Stock_Market_15_779.jpg)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/1370c6ec1c3d45b08ab5676a87be8c6e.jpeg)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3e70b8f84999494d9db194b83e8a0234.jpeg)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/e7ca9d00c4b94658858ac33f49b31b52.jpeg)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/21b54a9c349c422a9e3733100278a407.jpeg)
+
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/16207a50ad9145cd863338eae6053a5d.jpeg)
