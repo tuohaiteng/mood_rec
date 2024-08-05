@@ -218,7 +218,7 @@ def infer_single_image(model, img, class_names, device):
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/c1f06692188a4db0a4ad72bf4e74426f.png)
 
 ## 结果展示
-
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/79286fab2d3a4f8f97edb662a80d25b5.jpeg)
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/9507004c002541338b820be08b7479f9.png)
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/cf73301e98724f248c3988cde48b24c0.jpeg)
@@ -226,8 +226,7 @@ def infer_single_image(model, img, class_names, device):
 ![31_Waiter_Waitress_Waiter_Waitress_31_281](E:\faceid\mood_rec\demo\rec_result\31_Waiter_Waitress_Waiter_Waitress_31_281.jpg)
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3066b788eee54f53af8d810504bf3e70.jpeg)
-
-![15_Stock_Market_Stock_Market_15_779](E:\faceid\mood_rec\demo\rec_result\15_Stock_Market_Stock_Market_15_779.jpg)
+![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/3143fbbfb18547c3806a606cfd20b331.jpeg)
 
 ![在这里插入图片描述](https://i-blog.csdnimg.cn/direct/1370c6ec1c3d45b08ab5676a87be8c6e.jpeg)
 
